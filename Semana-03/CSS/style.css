@@ -181,3 +181,206 @@ main {
     color: #FFFFFF;
 }
 
+.h2-header {
+    position: absolute;
+    width: 183px;
+    height: 35px;
+    left: 353px;
+    top: 181px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #373867;
+}
+
+.h3-subheader {
+    position: absolute;
+    width: 120px;
+    height: 23px;
+    left: 353px;
+    top: 228px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #373867;
+}
+
+.paragraph-1 {
+    position: absolute;
+    width: 411px;
+    height: 234px;
+    left: 353px;
+    top: 304px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #41426F;
+}
+
+.photo-1 {
+    position: absolute;
+    width: 663px;
+    height: 373px;
+    left: 791px;
+    top: 181px;
+    background: url(Sin título-1.jpg);
+    border-radius: 5px;
+}
+
+.button-learn {
+    font-family:'Roboto', sans-serif;
+    position: absolute;
+    width: 147px;
+    height: 47px;
+    left: 617px;
+    top: 507px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.h2-reports {
+    position: absolute;
+    width: 107px;
+    height: 35px;
+    left: 510.11px;
+    top: 681.11px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.p-reports {
+    position: absolute;
+    width: 307px;
+    height: 107px;
+    left: 510.11px;
+    top: 725.11px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #41426F;
+}
+.report-icon {
+    position: absolute;
+    width: 58.05px;
+    height: 58.05px;
+    left: 443px;
+    top: 680px;
+}
+
+.h2-timetracking {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 1036.11px;
+    top: 681.11px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.p-tracking {
+    position: absolute;
+    width: 307px;
+    height: 107px;
+    left: 1038.11px;
+    top: 725.11px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #41426F;
+}
+.timetracking-icon {
+    position: absolute;
+    width: 58.05px;
+    height: 58.05px;
+    left: 969.11px;
+    top: 680px;
+}
+
+.h2-management {
+    position: absolute;
+    width: 400px;
+    height: 35px;
+    left: 512.11px;
+    top: 935.11px;
+    /* Title */
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.p-management {
+    position: absolute;
+    width: 307px;
+    height: 107px;
+    left: 506.11px;
+    top: 977.11px;
+    /* Component Title */
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #41426F;
+}
+.management-icon {
+    position: absolute;
+    width: 58.05px;
+    height: 58.05px;
+    left: 443.11px;
+    top: 927.11px;
+}
+
+.h2-mr {
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    left: 1036.11px;
+    top: 935.11px;
+    /* Title */
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.p-mr {
+    position: absolute;
+    width: 307px;
+    height: 107px;
+    left: 1036.11px;
+    top: 977.11px;
+    /* Component Title */
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #41426F;
+}
+.mr-icon {
+    position: absolute;
+    width: 58.05px;
+    height: 58.05px;
+    left: 969.11px;
+    top: 927.11px;
+}
