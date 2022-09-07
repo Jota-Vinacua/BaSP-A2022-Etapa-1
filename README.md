@@ -1,11 +1,13 @@
 WELCOME
 
 Proyect BASP2022-
-Stage: --> 02
+Stage/week --> 03
+
+--INFO--
+In week 01 we work on figma in groups
+In week 02 we work individualy on HTML file based on week 01
+Currently, we are woking in CSS based in the HTML on week 02
 
 User/Autor: Joaquin VInacua
 Mail: joaqo319@gmail.com
 
--INFO-
-There are some icons that look blank.
-On Stage 01(week 01), i work on Figma.
