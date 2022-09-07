@@ -1,4 +1,7 @@
 @import @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body {
+    overflow-x: hidden;
+}
 p {
     font-family: 'Roboto', sans-serif;  
 }
@@ -12,6 +15,22 @@ header {
     background-color: #41426f;
 }
 
+h1 {
+    font-family:'Roboto', sans-serif;
+    position: absolute;
+    width: 199px;
+    left: 32px;
+    top: 36px;
+    bottom: 37px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+
+
 aside {
     position: fixed;
     width: 288px;
@@ -22,109 +41,143 @@ aside {
 }
 
 main {
+    position: relative;
     padding-left: 358px;
-    padding-top: 243px;
+    padding-top: 181px;
     color: #41426f;
+    height: 0px;
+    width: 1118px;
 }
 
 .menu-aside {
     font-family:'Roboto', sans-serif;
+    position: absolute;
+    width: 102px;
+    height: 47px;
+    left: 17px;
+    top: 23px;
+    font-style: normal;
+    font-weight: 700;
     font-size: 40px;
-    color: #ffffff;
-    text-decoration-line: underline;
-    text-decoration-color: #AACE9B;
-    padding-left: 17px;
-    padding-top: 18px;
+    line-height: 47px;
+    text-decoration: underline;
+    text-decoration-color: #AACE9B ;
+    color: #FFFFFF;
 }
 
 .holder-search {
-    padding-left: 17px;
-    padding-top: 29px;
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
     width: 255px;
+    height: 38px;
+    left: 17px;
+    top: 99px;
+/* White - Background color */
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
 }
 
 .button-home {
-    padding-top: 21px;
-    padding-left: 17px;
-    margin-top: 21px;
-    border-radius: 5px;
-    border-color: #41426f;
+    position: absolute;
     width: 255px;
-    font-family:'Roboto', sans-serif;
+    height: 50px;
+    left: 17px;
+    top: 158px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 .button-login {
-    padding-left: 17px;
-    padding-top: 25px;
-    margin-top: 25px;
-    border-radius: 5px;
-    border-color: #41426f;
+    position: absolute;
     width: 255px;
-    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    left: 17px;
+    top: 233px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 .button-signup {
-    padding-left: 17px;
-    padding-top: 25px;
-    margin-top: 25px;
-    border-radius: 5px;
-    border-color: #41426f;
+    position: absolute;
     width: 255px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.ul-aside {
-    list-style-type: none;
-    margin-left: 17px;
-    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    left: 17px;
+    top: 308px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 .h3-aside {
-    font-family:'Roboto', sans-serif;
-    font-size: 15;
-    color: #ffffff;
-    padding-left: 17px;
-    padding-top: 96px;
-    text-decoration-line: underline;
-    text-decoration-color: #AACE9B;
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 17px;
+    top: 454px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #AACE9B ; 
 }
 
 .p-aside {
-    font-family:'Roboto', sans-serif;
+    position: absolute;
+    width: 255px;
+    height: 108px;
+    left: 17px;
+    top: 505px;
+    font-weight: 700;
     font-size: 15px;
-    color: #ffffff;
-    padding-left: 17px;
-    padding-top: 29px;
+    line-height: 18px;
+    /* White - Background color */
+    color: #FFFFFF;
 }
 
 .h3-asidebottom {
     font-family:'Roboto', sans-serif;
-    font-size: 15px;
-    color: #ffffff;
-    padding-left: 45px;
-    padding-top: 26px;
-    padding-bottom: 16px;
+    position: absolute;
+    width: 165px;
+    height: 16px;
+    left: 45px;
+    top: 640px;
+    color: #FFFFFF;
 }
 
 .h3-asidebottom1 {
     font-family:'Roboto', sans-serif;
     font-size: 15px;
-    color: #ffffff;
-    padding-top: 26px;
-    padding-bottom: 16px;
-    padding-left: 45px;
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    left: 45px;
+    top: 682px;
     border-top: #AACE9B;
     border-bottom: #AACE9B;
     border-style: solid;
-    width: 200px;
-    margin-left: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
 }
-    
-h1 {
+
+.h3-asidebottom2 {
     font-family:'Roboto', sans-serif;
-    font-size: 40px;
-    padding-top: 36px;
-    padding-left: 32px;
-    bottom: 37px;
-    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    width: 234px;
+    height: 18px;
+    left: 45px;
+    top: 737px;
+    padding-top: 16px;
+    color: #FFFFFF;
 }
+
